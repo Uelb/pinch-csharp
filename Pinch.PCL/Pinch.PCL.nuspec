@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Pinch.PCL
-This file was automatically generated for Pinch by APIMATIC v2.0 ( https://apimatic.io ) on 05/27/2016
--->
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Pinch.PCL</id>
     <version>0.1.0</version>
-    <title>Pinch.PCL</title>
-    <authors>APIMATIC 2.0</authors>
+    <title>Pinch</title>
+    <authors>Inchdev / Uelb</authors>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Pinch API</description>

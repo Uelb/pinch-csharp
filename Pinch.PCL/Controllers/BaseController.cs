@@ -1,8 +1,3 @@
-/*
- * Pinch.PCL
- *
- * This file was automatically generated for Pinch by APIMATIC v2.0 ( https://apimatic.io ) on 05/27/2016
- */
 using System;
 using pinch;
 using pinch.Http.Client;

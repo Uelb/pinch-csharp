@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Pinch.PCL")]
-[assembly: AssemblyDescription("Automatically generated using APIMatic")]
+[assembly: AssemblyTitle("Pinch")]
+[assembly: AssemblyDescription("A C# Library to easily connect to the Pinch API")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Pinch.PCL")]
+[assembly: AssemblyCompany("Inch")]
+[assembly: AssemblyProduct("Pinch")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
