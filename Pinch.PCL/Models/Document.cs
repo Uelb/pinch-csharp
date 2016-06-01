@@ -1,7 +1,7 @@
 /*
  * Pinch.PCL
  *
- * This file was automatically generated for Pinch by APIMATIC v2.0 ( https://apimatic.io ) on 05/27/2016
+ * This file was automatically generated for Pinch by APIMATIC v2.0 ( https://apimatic.io ) on 06/01/2016
  */
 using System;
 using System.IO;
@@ -20,7 +20,61 @@ namespace pinch.Models
     public class Document : INotifyPropertyChanged 
     {
         // These fields hold the values for the public properties.
+        private int id;
+        private string name;
+        private string thumbUrl;
         private string url;
+
+        /// <summary>
+        /// TODO: Write general description for this method
+        /// </summary>
+        [JsonProperty("id")]
+        public int Id 
+        { 
+            get 
+            {
+                return this.id; 
+            } 
+            private set 
+            {
+                this.id = value;
+                onPropertyChanged("Id");
+            }
+        }
+
+        /// <summary>
+        /// TODO: Write general description for this method
+        /// </summary>
+        [JsonProperty("name")]
+        public string Name 
+        { 
+            get 
+            {
+                return this.name; 
+            } 
+            set 
+            {
+                this.name = value;
+                onPropertyChanged("Name");
+            }
+        }
+
+        /// <summary>
+        /// If possible, a thumbnail of the document
+        /// </summary>
+        [JsonProperty("thumb_url")]
+        public string ThumbUrl 
+        { 
+            get 
+            {
+                return this.thumbUrl; 
+            } 
+            private set 
+            {
+                this.thumbUrl = value;
+                onPropertyChanged("ThumbUrl");
+            }
+        }
 
         /// <summary>
         /// Where to retrieve the document
