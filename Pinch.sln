@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinch.PCL", "Pinch.PCL/Pinch.PCL.csproj", "{7ba4467f-b843-433e-936a-21f943b2566b}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinch.PCL", "Pinch.PCL/Pinch.PCL.csproj", "{ea40aa2c-4e7b-425c-bca6-49dd3e8d1a05}"
 EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
         Release|Any CPU = Release|Any CPU
     EndGlobalSection
     GlobalSection(ProjectConfigurationPlatforms) = postSolution
-        {7ba4467f-b843-433e-936a-21f943b2566b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-        {7ba4467f-b843-433e-936a-21f943b2566b}.Debug|Any CPU.Build.0 = Debug|Any CPU
-        {7ba4467f-b843-433e-936a-21f943b2566b}.Release|Any CPU.ActiveCfg = Release|Any CPU
-        {7ba4467f-b843-433e-936a-21f943b2566b}.Release|Any CPU.Build.0 = Release|Any CPU
+        {ea40aa2c-4e7b-425c-bca6-49dd3e8d1a05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {ea40aa2c-4e7b-425c-bca6-49dd3e8d1a05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {ea40aa2c-4e7b-425c-bca6-49dd3e8d1a05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {ea40aa2c-4e7b-425c-bca6-49dd3e8d1a05}.Release|Any CPU.Build.0 = Release|Any CPU
     EndGlobalSection
     GlobalSection(SolutionProperties) = preSolution
         HideSolutionNode = FALSE

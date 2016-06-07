@@ -17,97 +17,133 @@ using pinch;
 
 namespace pinch.Models
 {
-    public class Unit : INotifyPropertyChanged 
+    public class Message : INotifyPropertyChanged 
     {
         // These fields hold the values for the public properties.
-        private string floorNumber;
-        private string frenchFloorNumber;
-        private string kind;
-        private string reference;
-        private string tenantName;
+        private string body;
+        private DateTime createdAt;
+        private int id;
+        private string messageType;
+        private string rawHtml;
+        private Person sender;
+        private string subject;
 
         /// <summary>
         /// TODO: Write general description for this method
         /// </summary>
-        [JsonProperty("floor_number")]
-        public string FloorNumber 
+        [JsonProperty("body")]
+        public string Body 
         { 
             get 
             {
-                return this.floorNumber; 
+                return this.body; 
             } 
             private set 
             {
-                this.floorNumber = value;
-                onPropertyChanged("FloorNumber");
+                this.body = value;
+                onPropertyChanged("Body");
             }
         }
 
         /// <summary>
         /// TODO: Write general description for this method
         /// </summary>
-        [JsonProperty("french_floor_number")]
-        public string FrenchFloorNumber 
+        [JsonProperty("created_at")]
+        public DateTime CreatedAt 
         { 
             get 
             {
-                return this.frenchFloorNumber; 
+                return this.createdAt; 
             } 
             private set 
             {
-                this.frenchFloorNumber = value;
-                onPropertyChanged("FrenchFloorNumber");
+                this.createdAt = value;
+                onPropertyChanged("CreatedAt");
             }
         }
 
         /// <summary>
         /// TODO: Write general description for this method
         /// </summary>
-        [JsonProperty("kind")]
-        public string Kind 
+        [JsonProperty("id")]
+        public int Id 
         { 
             get 
             {
-                return this.kind; 
+                return this.id; 
             } 
             private set 
             {
-                this.kind = value;
-                onPropertyChanged("Kind");
+                this.id = value;
+                onPropertyChanged("Id");
+            }
+        }
+
+        /// <summary>
+        /// sms, email, or direct
+        /// </summary>
+        [JsonProperty("message_type")]
+        public string MessageType 
+        { 
+            get 
+            {
+                return this.messageType; 
+            } 
+            private set 
+            {
+                this.messageType = value;
+                onPropertyChanged("MessageType");
             }
         }
 
         /// <summary>
         /// TODO: Write general description for this method
         /// </summary>
-        [JsonProperty("reference")]
-        public string Reference 
+        [JsonProperty("raw_html")]
+        public string RawHtml 
         { 
             get 
             {
-                return this.reference; 
+                return this.rawHtml; 
             } 
             private set 
             {
-                this.reference = value;
-                onPropertyChanged("Reference");
+                this.rawHtml = value;
+                onPropertyChanged("RawHtml");
             }
         }
 
         /// <summary>
         /// TODO: Write general description for this method
         /// </summary>
-        [JsonProperty("tenant_name")]
-        public string TenantName 
+        [JsonProperty("sender")]
+        public Person Sender 
         { 
             get 
             {
-                return this.tenantName; 
+                return this.sender; 
             } 
             private set 
             {
-                this.tenantName = value;
-                onPropertyChanged("TenantName");
+                this.sender = value;
+                onPropertyChanged("Sender");
+            }
+        }
+
+        /// <summary>
+        /// The subject of the email if it's an email
+        /// </summary>
+        [JsonProperty("subject")]
+        public string Subject 
+        { 
+            get 
+            {
+                return this.subject; 
+            } 
+            private set 
+            {
+                this.subject = value;
+                onPropertyChanged("Subject");
             }
         }
 
