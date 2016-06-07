@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Pinch.PCL</id>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <title>Pinch</title>
     <authors>Inchdev / Uelb</authors>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Pinch API</description>
     <summary />
-    <releaseNotes />
+    <releaseNotes>Added the documents and messages endpoint for a ticket</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <language>en-US</language>
         <dependencies>
